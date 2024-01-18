@@ -6,8 +6,6 @@ nav{
     width: 100%;
     background-color: rgb(255, 0, 0);
     height: 100px;
-   
-    /* position: fixed; */ /* Non fa modificare heigth di section.home e sovrappone section.home */    
 }
 
 div.flex-header{
@@ -15,7 +13,7 @@ div.flex-header{
 display: flex;
 justify-content: space-evenly ;
 height: 100px;
-position: relative;
+
 }
 
 #logo {
@@ -26,8 +24,20 @@ position: relative;
 }
 
 section.home{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0;
+    grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-content: space-evenly;
-    height: 200px;
+    height: 400px;
 }
+
+aside{
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
