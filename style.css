@@ -38,6 +38,16 @@ aside{
   height: 100px;
 }
 
+#img-home{
+    grid-row: span 2;
+    background-color: antiquewhite;
+}
 
+#carouselExampleIndicators{
+    width: 50%;
+    margin: 100px 0px;
+}
 
-
+#progetti{
+    background-color: aquamarine;
+}
