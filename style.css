@@ -4,43 +4,65 @@
 
 nav{
     width: 100%;
-    background-color: rgb(255, 0, 0);
+    background-color: #313131;
     height: 100px;
+}
+
+a.nav{
+    color: #e3e4e6;
+    text-decoration: none;
 }
 
 div.flex-header{
 
-display: flex;
-justify-content: space-evenly ;
-height: 100px;
-
+    display: flex;
+    justify-content: space-evenly ;
+    height: 100px;
+    align-items: center;
 }
 
 #logo {
     display: flex;
     margin: 0px 100px 0px 0px;
     height: 100px;
-    
+    align-items: center;
+    text-decoration: none;
+    color: #e3e4e6;  
 }
 
-section.home{
+#home{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0;
     grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-content: space-evenly;
+    justify-items: center;
     height: 400px;
+    background-color: #f7d0cb;
 }
+
 
 aside{
   width: 100px;
   height: 100px;
 }
 
-#img-home{
+#img-container{
     grid-row: span 2;
-    background-color: antiquewhite;
+    background-color: #e3e4e6;
+}
+
+#img-home{
+    max-width: 100%;
+}
+
+#descrizione-home{
+    background-color: #e3e4e6;
+}
+
+#presentazione-home{    
+    background-color: #e3e4e6;
 }
 
 #carouselExampleIndicators{
@@ -49,5 +71,23 @@ aside{
 }
 
 #progetti{
-    background-color: aquamarine;
+    background-color: #f6d9d5;
+}
+
+div.carousel-item{
+    max-width: 100%;
+}
+
+#chi-sono{
+    background-color: #f7d0cb;
+}
+
+#titoli-di-studio{
+    background-color: #f6d9d5;
+    height: 500px;
+}
+
+footer{
+    background-color: #313131;
+    height: 500px;
 }
