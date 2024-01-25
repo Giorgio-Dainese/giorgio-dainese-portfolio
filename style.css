@@ -2,10 +2,15 @@
     margin: 0;
 } */
 
+
 nav{
     width: 100%;
     background-color: #313131;
     height: 100px;
+}
+
+main{
+    color: #313131;
 }
 
 a.nav{
@@ -80,12 +85,38 @@ div.carousel-item{
 
 #chi-sono{
     background-color: #f7d0cb;
+    position: relative;
 }
+
+#div-descrizione{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    max-width: 60%;
+    background-color: #e3e4e6;
+    text-align: center ;    
+}
+
+#div-descrizione h2 {
+    display: inline-block;
+  }
 
 #titoli-di-studio{
     background-color: #f6d9d5;
     height: 500px;
+    display: flex;
+    justify-content: center;
 }
+
+article {
+    width: 50%;
+    border: 1px SOLID #000000;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
 
 footer{
     background-color: #313131;
