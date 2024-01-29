@@ -43,7 +43,7 @@ div.flex-header{
     align-items: center;
     justify-content: space-evenly;
     justify-items: center;
-    height: 400px;
+    height: 500px;
     background-color: #f7d0cb;
 }
 
@@ -62,12 +62,14 @@ aside{
     max-width: 100%;
 }
 
-#descrizione-home{
-    background-color: #e3e4e6;
-}
-
 #presentazione-home{    
     background-color: #e3e4e6;
+    margin-right: 50%;
+}
+
+#descrizione-home{
+    background-color: #e3e4e6;
+    margin-right: 20%;
 }
 
 #carouselExampleIndicators{
@@ -75,8 +77,24 @@ aside{
     margin: 100px 0px;
 }
 
-#progetti{
+#progetti {
     background-color: #f6d9d5;
+    height: 500px;
+    position: relative;
+}
+
+#progetti div{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#carouselExampleIndicators{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 div.carousel-item{
@@ -86,6 +104,7 @@ div.carousel-item{
 #chi-sono{
     background-color: #f7d0cb;
     position: relative;
+    height: 500px;
 }
 
 #div-descrizione{
@@ -113,12 +132,17 @@ article {
     width: 25%;
     height: 75%;
     border: 1px SOLID #000000;
-    padding: 10px;
-    
+    padding: 10px; 
+    background-color: #e3e4e6;
 }
 
+#card-1{
+    margin: 0 0 0 120px;
+}
 
-
+#card-2{
+    margin: 0 120px 0 0 ;
+}
 
 footer{
     background-color: #313131;
@@ -130,7 +154,6 @@ footer{
 
 footer div{
     display: inline;
-   
 }
 
 #logo-footer{
