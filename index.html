@@ -40,15 +40,23 @@
                 </div>
         </section>
             
-        <section id="progetti">  
+         <section id="progetti">  
           <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
+                  <div class="carousel-item active d-flex justify-content-center">
+                    <img src="./assets/images/Screenshot 2024-01-22 alle 19.57.54.png" class="d-block w-100" alt="...">
+                    <img src="./assets/images/Screenshot 2024-01-22 alle 19.57.54.png" class="d-block w-100" alt="...">
+
+                  </div>
+            
+                  <div class="carousel-item">
                     <img src="./assets/images/Screenshot 2024-01-22 alle 19.57.54.png" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
@@ -68,6 +76,7 @@
                 </button>
               </div>
         </section>
+     
     
         <section id="chi-sono">
           <div id="div-descrizione">
@@ -97,22 +106,23 @@
     </main>
 
     <footer id="contatti">
-        <div id="logo-footer">logo</div>
+      <div id="flex-footer-2">  
+      <div id="logo-footer">logo</div>
         <div id="anagrafica-footer">
-          Giorgio Dainese <br>
-          Corso Palestro 14 <br>
-          Torino
+          <br> Giorgio Dainese <br><br>
+          Corso Palestro 14 <br><br>
+          Torino <br>
         </div>
         <div id="contatti-footer">
-          dainesegiorgio@gmail.com <br>
+          dainesegiorgio@gmail.com <br><br>
           391 798 6267
         </div>
-         <div> <!-- Con questo div si schiacchiano le 3 icone. Facendo un flex in questo div la situa migliora? Sarebbe un flex in un div già in un flex -->
-          <!-- Le icone social continuo a non farle venire come voglio. Passare da icone bootstrap a svg. 
-          CANCELLARE RIGA 13!  -->
-        <a href="" style="width: 25px; height: 25px;"><i class="bi bi-instagram" style="width: 25px; height: 25px;" ></i> </a>  <!-- Lo style di i non ha effetto -->
-        <a href="" style="width: 25px; height: 25px;"> <i class="bi bi-linkedin"></i></a>
-        <a href="" style="width: 25px; height: 25px;"><i class="bi bi-github"></i></a>
+      </div>
+    
+          <div id="flex-footer-3">
+        <a href="https://www.instagram.com/" style="width: 25px; height: 25px;" target="_blank"><i class="bi bi-instagram" style="width: 25px; height: 25px;" ></i> </a>  <!-- Lo style di i non ha effetto -->
+        <a href="https://www.linkedin.com/" style="width: 25px; height: 25px;" target="_blank"> <i class="bi bi-linkedin"></i></a>
+        <a href="https://www.github.com/" style="width: 25px; height: 25px;" target="_blank"><i class="bi bi-github"></i></a>
       </div>
     </footer>
 

@@ -7,6 +7,8 @@ nav{
     width: 100%;
     background-color: #313131;
     height: 100px;
+    position: fixed;
+    z-index: 1;
 }
 
 main{
@@ -45,6 +47,7 @@ div.flex-header{
     justify-items: center;
     height: 500px;
     background-color: #f7d0cb;
+    padding: 100px 0 0 0;
 }
 
 
@@ -146,7 +149,7 @@ article {
 
 footer{
     background-color: #313131;
-    height: 500px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -181,4 +184,18 @@ footer div{
 #github-footer{
     background-color: #e3e4e6;  
     border-radius: 50%;
+}
+
+#flex-footer-2{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+
+#flex-footer-3{
+   width: 15%;
+    display: flex;
+    justify-content: space-around;
 }
