@@ -75,10 +75,6 @@ aside{
     margin-right: 20%;
 }
 
-#carouselExampleIndicators{
-    width: 50%;
-    margin: 100px 0px;
-}
 
 #progetti {
     background-color: #f6d9d5;
@@ -98,6 +94,8 @@ aside{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    width: 50%;
+    margin: 100px 0px; 
 }
 
 div.carousel-item{
@@ -199,3 +197,4 @@ footer div{
     display: flex;
     justify-content: space-around;
 }
+
