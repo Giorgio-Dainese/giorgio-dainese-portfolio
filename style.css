@@ -37,6 +37,10 @@ div.flex-header{
     color: #e3e4e6;  
 }
 
+#logo img{
+    width: 90px;
+}
+
 #home{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -157,16 +161,23 @@ footer div{
     display: inline;
 }
 
-#logo-footer{
-    background-color: #e3e4e6;
+#logo-footer img{
+    width: 90px;
 }
 
 #anagrafica-footer{
     background-color: #e3e4e6;
+    width: 33%;
 }
 
 #contatti-footer{
     background-color: #e3e4e6;
+    width: 35%;
+}
+
+#contatti-footer a{
+    text-decoration: none;
+    color: #313131;
 }
 
 #ig-footer{
@@ -187,7 +198,7 @@ footer div{
 #flex-footer-2{
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     
 }
