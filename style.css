@@ -93,14 +93,24 @@ aside{
     padding-bottom: 0;
 }
 
-#carouselExampleIndicators{
+#carosello{
+    max-width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    
+}
+
+/* #carouselExampleIndicators{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 50%;
     margin: 100px 0px; 
-}
+} */
 
 div.carousel-item{
     max-width: 100%;
