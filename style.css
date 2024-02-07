@@ -52,7 +52,7 @@ div.flex-header{
     grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-content: space-evenly;
-    justify-items: center;
+    justify-items: start;
     height: 600px;
     background-color: #f7d0cb;
     padding: 100px 0 0 0;
@@ -61,8 +61,10 @@ div.flex-header{
 } 
 
 #img-home-container{
-    background-color: #e3e4e6;
     grid-row: span 2 ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #img-home{
