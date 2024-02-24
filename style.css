@@ -1,6 +1,4 @@
-/* body{
-    margin: 0;
-} */
+
 
 
 nav{
@@ -81,7 +79,15 @@ div.flex-header{
 }
 
 
-#progetti {
+
+
+
+
+
+
+
+
+ #progetti {
     background-color: #f6d9d5;
     height: 500px;
     position: relative;
@@ -100,7 +106,7 @@ div.flex-header{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
+} 
 
 /* #carouselExampleIndicators{
     position: absolute;
