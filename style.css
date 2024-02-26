@@ -72,20 +72,21 @@ div.flex-header{
 
 #presentazione-home{    
     background-color: #e3e4e6;
+    width: -webkit-fill-available;
+    text-align: center;
 }
 
 #descrizione-home{
     background-color: #e3e4e6;
+    margin: 0 0 18%;
+    padding: 0.83%;
 }
 
+#descrizione-home p{
+    text-align: center;
+    margin: 3% 3% 2% 3% ;
 
-
-
-
-
-
-
-
+}
 
  #progetti {
     background-color: #f6d9d5;
