@@ -78,13 +78,11 @@ div.flex-header{
 
 #descrizione-home{
     background-color: #e3e4e6;
-    margin: 0 0 18%;
-    padding: 0.83%;
+    margin: 0 0 20%;
 }
 
 #descrizione-home p{
     text-align: center;
-    margin: 3% 3% 2% 3% ;
 
 }
 
@@ -135,10 +133,12 @@ div.carousel-item{
     max-width: 60%;
     background-color: #e3e4e6;
     text-align: center ;    
+    padding: 2%;
 }
 
 #div-descrizione h2 {
     display: inline-block;
+    justify-content: center;
   }
 
 #titoli-di-studio{
@@ -239,3 +239,21 @@ footer div{
     justify-content: space-around;
 }
 
+@media  (min-width: 300px) and (max-width: 600px){
+
+    #carosello{
+        width: 75%;
+        height: 20%;
+        transform: translate(-50%, -190%);
+    }
+    
+    #div-descrizione{
+        transform: translate(0, -19%);
+        padding: 2%;
+        height: 80%;
+    }
+    #div-descrizione p{
+        font-size: small;
+    }
+   
+}
