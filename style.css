@@ -1,7 +1,15 @@
+/* Body */
+.big-shoulders-display-body {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
 
 
-
-nav{
+/* Navbar */
+nav {
     width: 100%;
     background-color: #313131;
     height: 100px;
@@ -9,19 +17,14 @@ nav{
     z-index: 1;
 }
 
-main{
-    color: #313131;
-}
-
-a.nav{
+a.nav {
     color: #e3e4e6;
     text-decoration: none;
 }
 
-div.flex-header{
-
+div.flex-header {
     display: flex;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
     height: 100px;
     align-items: center;
 }
@@ -32,19 +35,26 @@ div.flex-header{
     height: 100px;
     align-items: center;
     text-decoration: none;
-    color: #e3e4e6;  
-    
+    color: #e3e4e6;
 }
 
-#logo img{
+#logo img {
     width: 90px;
 }
 
-#home{
+
+/* Main */
+main {
+    color: #313131;
+}
+
+
+/* Sezione home */
+#home {
     background-color: #f7d0cb;
 }
 
-#home-grid{
+#home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -56,92 +66,91 @@ div.flex-header{
     padding: 100px 0 0 0;
     max-width: 75%;
     margin: 0 0 0 12.5%;
-} 
+}
 
-#img-home-container{
-    grid-row: span 2 ;
+#img-home-container {
+    grid-row: span 2;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-#img-home{
+#img-home {
     width: 300px;
     height: 400px;
 }
 
-#presentazione-home{    
+#presentazione-home {
     background-color: #e3e4e6;
     width: -webkit-fill-available;
     text-align: center;
 }
 
-#descrizione-home{
+#descrizione-home {
     background-color: #e3e4e6;
     margin: 0 0 20%;
 }
 
-#descrizione-home p{
+#descrizione-home p {
     text-align: center;
-
+    margin-top: 10px;
 }
 
- #progetti {
+
+/* Sezione progetti */
+#progetti {
     background-color: #f6d9d5;
     height: 500px;
     position: relative;
 }
 
-#progetti div{
+#progetti div {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 0;
 }
 
-#carosello{
+#carosello {
     max-width: 75%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-} 
-
-/* #carouselExampleIndicators{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 50%;
-    margin: 100px 0px; 
-} */
-
-div.carousel-item{
-    max-width: 100%;
+    transition: transform .25s;
+    transform: translate(17%, 25%);
+    opacity: 75%;
 }
 
-#chi-sono{
+#carosello:hover {
+    transform: scale(1.18) translate(14%, 25%);
+    opacity: 100%;
+}
+
+
+
+/* Sezione chi sono */
+#chi-sono {
     background-color: #f7d0cb;
     position: relative;
     height: 500px;
 }
 
-#div-descrizione{
+#div-descrizione {
     position: absolute;
     top: 25%;
     left: 20%;
     max-width: 60%;
     background-color: #e3e4e6;
-    text-align: center ;    
+    text-align: center;
     padding: 2%;
 }
 
 #div-descrizione h2 {
     display: inline-block;
     justify-content: center;
-  }
+}
 
-#titoli-di-studio{
+
+/* Sezione titoli di studio */
+#titoli-di-studio {
     background-color: #f6d9d5;
     height: 500px;
     display: flex;
@@ -153,33 +162,35 @@ article {
     width: 25%;
     height: 75%;
     border: 1px SOLID #000000;
-    padding: 10px; 
+    padding: 10px;
     background-color: #e3e4e6;
 }
 
-#card-1{
+#card-1 {
     margin: 0 0 0 120px;
 }
 
-#card-2{
-    margin: 0 120px 0 0 ;
+#card-2 {
+    margin: 0 120px 0 0;
 }
 
-.card-title{
+.card-title {
     text-align: center;
 }
 
-.card-body{
+.card-body {
     display: flex;
     margin: 0 0 0 5%;
 }
 
-.card-body-content{
+.card-body-content {
     display: grid;
     justify-items: start;
 }
 
-footer{
+
+/* Footer */
+footer {
     background-color: #313131;
     height: 300px;
     display: flex;
@@ -187,73 +198,59 @@ footer{
     justify-content: space-evenly;
 }
 
-footer div{
+footer div {
     display: inline;
 }
 
-#logo-footer img{
+#logo-footer img {
     width: 90px;
 }
 
-#anagrafica-footer{
+#anagrafica-footer {
     background-color: #e3e4e6;
     width: 33%;
 }
 
-#contatti-footer{
+#contatti-footer {
     background-color: #e3e4e6;
     width: 35%;
 }
 
-#contatti-footer a{
+#contatti-footer a {
     text-decoration: none;
     color: #313131;
 }
 
-#ig-footer{
-    background-color: #e3e4e6;
-    border-radius: 50%;
-}
-
-#linkedIn-footer{
-    background-color: #e3e4e6;
-    border-radius: 50%;
-}
-
-#github-footer{
-    background-color: #e3e4e6;  
-    border-radius: 50%;
-}
-
-#flex-footer-2{
+#flex-footer-2 {
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    
 }
 
-#flex-footer-3{
-   width: 15%;
+#flex-footer-3 {
+    width: 15%;
     display: flex;
     justify-content: space-around;
 }
 
-@media  (min-width: 300px) and (max-width: 600px){
 
-    #carosello{
-        width: 75%;
-        height: 20%;
-        transform: translate(-50%, -190%);
+/* Media query del carosello coi progetti e della sezione chi sono */
+@media (min-width: 300px) and (max-width: 600px) {
+
+    #carosello {
+        width: 200px;
+        height: 100px;
+        margin: 0 0 0 50px;
     }
-    
-    #div-descrizione{
+
+    #div-descrizione {
         transform: translate(0, -19%);
         padding: 2%;
         height: 80%;
     }
-    #div-descrizione p{
+
+    #div-descrizione p {
         font-size: small;
     }
-   
 }
